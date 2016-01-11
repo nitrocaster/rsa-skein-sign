@@ -14,6 +14,21 @@
     <ClCompile Include="skein\skein_debug.c">
       <Filter>skein</Filter>
     </ClCompile>
+    <ClCompile Include="..\rsa\src\rsa\bigint.c">
+      <Filter>rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rsa\src\rsa\dumb_padding.c">
+      <Filter>rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rsa\src\rsa\rsa.c">
+      <Filter>rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rsa\src\rsa\rsa_util.c">
+      <Filter>rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rsa\src\rsa\solovay_strassen.c">
+      <Filter>rsa</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="config.h" />
@@ -36,10 +51,34 @@
     <ClInclude Include="skein\skein_port.h">
       <Filter>skein</Filter>
     </ClInclude>
+    <ClInclude Include="..\rsa\src\rsa\bigint.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rsa\src\rsa\common.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rsa\src\rsa\config.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rsa\src\rsa\dumb_padding.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rsa\src\rsa\rsa.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rsa\src\rsa\rsa_util.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rsa\src\rsa\solovay_strassen.h">
+      <Filter>rsa</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="skein">
       <UniqueIdentifier>{e18e5a8d-f843-4766-b4ed-ae6e67995c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rsa">
+      <UniqueIdentifier>{642637b4-ff4c-4b55-86bd-f37885a0c7dd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

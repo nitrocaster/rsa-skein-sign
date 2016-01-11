@@ -1,0 +1,3 @@
+[submodule "src/rsa"]
+	path = src/rsa
+	url = git@github.com:nitrocaster/rsa.git

@@ -2,9 +2,44 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.c" />
+    <ClCompile Include="skein\SHA3api_ref.c">
+      <Filter>skein</Filter>
+    </ClCompile>
+    <ClCompile Include="skein\skein.c">
+      <Filter>skein</Filter>
+    </ClCompile>
+    <ClCompile Include="skein\skein_block.c">
+      <Filter>skein</Filter>
+    </ClCompile>
+    <ClCompile Include="skein\skein_debug.c">
+      <Filter>skein</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="config.h" />
     <ClInclude Include="common.h" />
+    <ClInclude Include="skein\brg_endian.h">
+      <Filter>skein</Filter>
+    </ClInclude>
+    <ClInclude Include="skein\brg_types.h">
+      <Filter>skein</Filter>
+    </ClInclude>
+    <ClInclude Include="skein\SHA3api_ref.h">
+      <Filter>skein</Filter>
+    </ClInclude>
+    <ClInclude Include="skein\skein.h">
+      <Filter>skein</Filter>
+    </ClInclude>
+    <ClInclude Include="skein\skein_debug.h">
+      <Filter>skein</Filter>
+    </ClInclude>
+    <ClInclude Include="skein\skein_port.h">
+      <Filter>skein</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="skein">
+      <UniqueIdentifier>{e18e5a8d-f843-4766-b4ed-ae6e67995c07}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

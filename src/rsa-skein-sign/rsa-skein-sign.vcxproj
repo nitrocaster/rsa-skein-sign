@@ -130,10 +130,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
+    <ClCompile Include="skein\SHA3api_ref.c" />
+    <ClCompile Include="skein\skein.c" />
+    <ClCompile Include="skein\skein_block.c" />
+    <ClCompile Include="skein\skein_debug.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
     <ClInclude Include="config.h" />
+    <ClInclude Include="skein\brg_endian.h" />
+    <ClInclude Include="skein\brg_types.h" />
+    <ClInclude Include="skein\SHA3api_ref.h" />
+    <ClInclude Include="skein\skein.h" />
+    <ClInclude Include="skein\skein_debug.h" />
+    <ClInclude Include="skein\skein_port.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

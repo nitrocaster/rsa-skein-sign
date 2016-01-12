@@ -54,7 +54,7 @@ static int load_data(bigint_t *n, bigint_t *exp, FILE **doc, FILE **sign,
         puts("can't open document file.");
         return 1;
     }
-    *sign = fopen(sign_file, mode=='s' ? "wb+" : "rb");
+    *sign = fopen(sign_file, mode=='s' ? "wb" : "rb");
     if (!*sign)
     {
         puts("can't open signature file.");
